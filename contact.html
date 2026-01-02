@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+<!-- CDN JS Cloudfare -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Contact Page -->
+    <title>Photography Site::Contact Me</title>
+</head>
+<header id="home">
+    <!-- Navigation Bar -->
+        <nav>
+                    <ul class="nav-bar">
+                        <li class="logo"><a href="index.html"><i class="fa-solid fa-camera"></i></a></li>
+                        <input type="checkbox" id="check">
+                        <span class="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT ME</a></li>
+                        <li><a href="photoGallery.html">PORTFOLIO</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT ME</a></li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                        </span>
+                        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                </ul>
+        </nav>
+    </header>
+    <!-- Contact Form -->
+<body class="contact-page">
+        <div class="form-container">
+            <!-- Header -->
+            <h2 class="contact-me">Contact Me</h2>
+            <!-- Formspree Form Link -->
+            <form action="https://formspree.io/f/xbljrknk" Method="POST">
+                <!-- First Name -->
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name" autocomplete="off" required>
+
+                <!-- Last Name -->
+                <label for="lname">Last Name</label>
+                <input type="text" id="fname" name="lastname" placeholder="Last Name" autocomplete="off" required>
+
+                <!-- E-mail -->
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" name="email" placeholder="email@email.com" autocomplete="off" required>
+
+                <!-- Subject -->
+                <label for="subject">Subject</label>
+                <textarea name="subject" id="subject" placeholder="Please Provide Feedback" style="height:200px" autocomplete="off" required></textarea>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-1">
+            <p>
+                <small>Copyright &copy; 2024</small>
+            </p>
+        </div>
+</body>
+</html>
